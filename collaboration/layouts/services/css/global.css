@@ -1,0 +1,76 @@
+body{
+	background: white;
+	margin-top: 0;
+}
+
+.wrapper{
+	width: 1443px;
+	height: 3000px;
+	background: #ED6C4D;
+	margin: 0 auto;
+}
+
+nav{
+	background: #313A45;
+	height: 248px;
+	text-align: center;
+	font-size: 20px;
+	position: relative;
+	top: 13px;
+}
+
+nav:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 707px;
+    width: 0;
+    height: 0;
+
+    border-left: 25px solid transparent;
+    border-top: 26px solid #313A45;
+    border-right: 25px solid transparent;
+}
+
+.principal{
+	display: block;
+	padding-top: 90px;
+
+}
+
+.main_services{
+	top: 16px;
+	text-align: left;
+	float: left;
+	width: 440px;
+	margin-left: 250px;
+}
+
+h2{
+	color: white;
+	font-size: 44px;
+	font-family: Avenir Next;
+	font-weight: normal;
+	letter-spacing: 2px;
+}
+
+.features_services{
+	top: 16px;
+	text-align: left;
+	float: left;
+	width: 650px;
+}
+
+ul{
+	margin-top: 80px;
+}
+
+li{
+	list-style-image: url(../images/services.png);
+	font-size: 18px;
+	font-family: Avenir Next;
+	color: white;
+}
+
+
+
