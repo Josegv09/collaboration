@@ -12,8 +12,9 @@ nav{
 	top: 16px;
 }
 #talkbubble {
+	top:16px;
    width: 1300px;
-   height: 726px;
+   height: 728px;
    background: red;
    position: relative;
 
@@ -23,10 +24,10 @@ nav{
    content:"";
    position: absolute;
    top: 100%;
-   left: 26px;
+   left: 615px;
    width: 0;
    height: 0;
-   border-left: 13px solid transparent;
+   border-left: 25px solid transparent;
    border-top: 26px solid red;
-   border-right: 13px solid transparent;
+   border-right: 25px solid transparent;
 }
