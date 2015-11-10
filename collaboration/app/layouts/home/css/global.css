@@ -13,14 +13,22 @@
 	border-radius: 0;
 	border-bottom: 1px solid white;
 	margin: 0 auto;
-	padding: 10px 0 0 0;
+	padding: 0 0 0 299px;
+
 }
 li{
-	background: red;
-	width: 100px;
-	height: 25px;
-	color: #FFF;
-	font: lighter 25px "Avenir Next";
+	color: #FFFFFF;
+	font:  19px "Avenir Next";
+	text-align: center;
+	height: 77px
+}
+a{
+	color: white;
+	padding: 
+}
+}
+.navbar li:active{
+	background: #282F39;
 }
 #talkbubble {
    	width: 1300px;
@@ -42,5 +50,5 @@ li{
 }
 a:hover{
 	text-decoration: none;
-
+	color: white;
 }
