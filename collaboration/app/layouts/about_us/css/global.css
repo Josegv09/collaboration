@@ -11,26 +11,40 @@ h2{
     color: #FFF;
 }
 
-#about_us{
+.about_us{
     width: 1300px;
     height: 541px;
     position: relative;
 }
 
-#our_principles{
+.our_principles{
     width: 1300px;
-    height: 940px;
+    height: 580px;
+    position: relative;
 }
 
-#our_principles, #our_partners, #our_principles_ul{
+.our_partners{
+    width: 1300px;
+    height: 340px;
+}
+
+.our_principles, .our_partners{
     background: #323A45;
 }
 
-#our_principles_ul{
-    float: left;
+.list1 {
+    position: absolute;
+    top: 216px;
+    left: 260px;
 }
 
-#about_us h2{
+.list1 li{
+    color: #fff;
+    margin: 0 70px 76px 0;
+    display: inline-block;
+}
+
+.about_us h2, .our_principles h2{
     position: absolute;
     top: 94px;
     left: 520px;
@@ -41,13 +55,14 @@ h2{
     color:#FFF;
 }
 
-#about_us .more{
+.about_us #more{
     position: absolute;
     bottom: 72px;
     left: 525px;
+    text-decoration: none;
 }
 
-#about_us p{
+.about_us p{
     width: 516px;
     height: 238px;
     color: #FFF;
@@ -58,7 +73,23 @@ h2{
     right: 256px;
 }
 
-#img1{
+.list1 li > p{
+    width: 205px;
+    display: inline-block;
+}
+
+.list1 #more{
+    position: relative;
+    top: 0px;
+    left: 110px;
+}
+
+.our_principles #more{
+    text-decoration: none;
+    display: block;
+}
+
+.img1{
     width: 240px;
     height: 240px;
     float: left;
@@ -67,30 +98,32 @@ h2{
     left: 266px;
 }
 
-.circle {
-     width: 232px;
-     height: 232px;
-     -moz-border-radius: 50%;
-     -webkit-border-radius: 50%;
-     border-radius: 50%;
-     background: #333B46;
-     border:solid 1px #3A434C;
-     position: relative;
-}
-
-.circle span{
-	position: absolute;
-	left: 50px;
-	top: 50px;
-	font: #ED6C4D;
-}
-
-.cuartocirculo{
-	width: 116px; 
-    height: 116px; 
-    border: 12px solid black; 
-    background:transparent;
-    border-radius: 0 0 0 100%;
+.about_us:before{
+    content:"";
+    top: 100%;
+    left: 615px;
     position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-top: 26px solid #ED6C4D;
+    border-right: 25px solid transparent;
 }
 
+.our_partners h2{
+    clear: both;
+    margin: 0 auto;
+}
+
+.circle{
+    display: inline-block;
+    width: 86px;
+    height: 70px;
+    border-radius: 50%;
+    background: #747884;
+    text-align: center;
+    font-size: 44px;
+    color: #ED6C4D;
+    padding: 16px 0 0 0;
+    margin: 0 22px 0 0;
+}
