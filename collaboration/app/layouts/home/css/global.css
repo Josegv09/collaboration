@@ -3,38 +3,44 @@
 	width: 1300px;
 	height: 2897px;
 	margin: 0 auto;
+	padding: 16px 0 0 0;
 }
-nav{
+.navbar{
 	background: #323A45;
 	width: 1300px;
 	height: 77px;
-	position: relative;
-	top: 16px;
+	border: none;
+	border-radius: 0;
 	border-bottom: 1px solid white;
+	margin: 0 auto;
+	padding: 10px 0 0 0;
 }
 li{
-	float: left;
-	padding: 15px 0 0 0;
-	width: 133px;
-	text-align: center;
+	background: red;
+	width: 100px;
+	height: 25px;
+	color: #FFF;
+	font: lighter 25px "Avenir Next";
 }
 #talkbubble {
-	top:16px;
    	width: 1300px;
    	height: 728px;
-   	background: #323A45;
-   	position: relative;
-
+   	background: #323A45;	
 	margin: 0;
+	position: relative;
 }
 #talkbubble:before {
    	content:"";
    	position: absolute;
    	top: 100%;
-   	left: 615px;
+   	left: 616px;
    	width: 0;
    	height: 0;
    	border-left: 25px solid transparent;
    	border-top: 26px solid #323A45;
    	border-right: 25px solid transparent;
+}
+a:hover{
+	text-decoration: none;
+
 }
