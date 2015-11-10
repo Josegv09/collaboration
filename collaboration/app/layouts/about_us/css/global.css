@@ -1,8 +1,70 @@
 .wrapper{
 	background: #ED6C4D;
 	width: 1300px;
-	height: 1000px;
+	height: 2000px;
 	margin: 0 auto;
+    position: relative;
+}
+
+h2{
+    font: lighter 40px "Avenir Next";
+    color: #FFF;
+}
+
+#about_us{
+    width: 1300px;
+    height: 541px;
+    position: relative;
+}
+
+#our_principles{
+    width: 1300px;
+    height: 940px;
+}
+
+#our_principles, #our_partners, #our_principles_ul{
+    background: #323A45;
+}
+
+#our_principles_ul{
+    float: left;
+}
+
+#about_us h2{
+    position: absolute;
+    top: 94px;
+    left: 520px;
+}
+
+.more{
+    font:italic lighter 20px impact;
+    color:#FFF;
+}
+
+#about_us .more{
+    position: absolute;
+    bottom: 72px;
+    left: 525px;
+}
+
+#about_us p{
+    width: 516px;
+    height: 238px;
+    color: #FFF;
+    text-align: left;
+    float: right;
+    position: absolute;
+    top: 220px;
+    right: 256px;
+}
+
+#img1{
+    width: 240px;
+    height: 240px;
+    float: left;
+    position: absolute;
+    top: 184px;
+    left: 266px;
 }
 
 .circle {
@@ -32,6 +94,3 @@
     position: absolute;
 }
 
-#our_principles_ul{
-	float: left;
-}
