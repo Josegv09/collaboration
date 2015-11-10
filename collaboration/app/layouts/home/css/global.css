@@ -16,19 +16,26 @@
 	padding: 0 0 0 299px;
 
 }
-li{
+li{	
 	color: #FFFFFF;
 	font:  19px "Avenir Next";
 	text-align: center;
-	height: 77px
+	height: 77px;
+	position: relative;
+	top: 15px;
+
 }
+
 a{
 	color: white;
-	padding: 
+	
+
 }
-}
-.navbar li:active{
+
+ li:active{
 	background: #282F39;
+	border-bottom: 3px solid red;
+
 }
 #talkbubble {
    	width: 1300px;
