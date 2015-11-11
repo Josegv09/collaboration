@@ -1,25 +1,89 @@
 .wrapper{
 	background: #ED6C4D;
 	width: 1300px;
-	height: 2000px;
+	height: 1742px;
 	margin: 0 auto;
     position: relative;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    background: #323A45;
+    height: 77px;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid white;
+    margin: 10px auto 0;
+    padding: 0 0 0 299px;
+
+}
+
+.navbar li{ 
+    color: #FFFFFF;
+    font:  19px "Avenir Next";
+    text-align: center;
+    height: 63px;
+    position: relative;
+    top: 15px;
+
+}
+
+.navbar-nav a{
+    color:#FFF;   
+}
+
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:active{
+    color: #FFF;
+}
+
+.navbar a:hover,
+.navbar a:focus {
+  color: #FFF;
+}
+
+.navbar li:active{
+    background: #282F39;
+    border-bottom: 3px solid red;
+    color: #FFF;
+}
+
+.navbar a:hover{
+    text-decoration: none;
+    color: #FFF;
 }
 
 h2{
     font: lighter 40px "Avenir Next";
     color: #FFF;
+    margin: 0;
 }
 
-.about_us{
-    width: 1300px;
-    height: 541px;
+.banner{
+    background: #323A45;
+    height: 172px;
     position: relative;
 }
 
-.our_principles{
-    width: 1300px;
-    height: 580px;
+.banner:before{
+    content:"";
+    top: 100%;
+    left: 615px;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-top: 26px solid #323A45;
+    border-right: 25px solid transparent;
+    z-index: 2;
+}
+
+.about_us{
+    height: 541px;
     position: relative;
 }
 
@@ -28,26 +92,49 @@ h2{
     height: 340px;
 }
 
-.our_principles, .our_partners{
+.row5, .row6, .row7, .row8, .row9, .our_partners{
     background: #323A45;
 }
 
-.list1 {
-    position: absolute;
-    top: 216px;
-    left: 260px;
-}
-
-.list1 li{
-    color: #fff;
-    margin: 0 70px 76px 0;
-    display: inline-block;
-}
-
-.about_us h2, .our_principles h2{
-    position: absolute;
+.row3 h2, .row5 h2, .row8 h2{
+    position: relative;
     top: 94px;
     left: 520px;
+}
+
+.row5, .row8{
+    height: 190px;
+}
+
+.row6, .row7{
+    height: 160px;
+}
+
+.row9{
+    height: 172px;
+}
+
+.row10{
+    height: 25px;
+    background: 
+}
+
+.our_principles p{
+    color: #fff;
+    display:inline-block;
+    width: 230px;
+}
+
+.row6 .col-lg-6:first-child, 
+.row7 .col-lg-6:first-child{
+    padding: 0 0 0 255px;
+}
+
+.our_principles #more{
+    display:block;
+    position: relative;
+    left: 108px;
+    text-decoration: none;
 }
 
 .more{
@@ -73,22 +160,6 @@ h2{
     right: 256px;
 }
 
-.list1 li > p{
-    width: 205px;
-    display: inline-block;
-}
-
-.list1 #more{
-    position: relative;
-    top: 0px;
-    left: 110px;
-}
-
-.our_principles #more{
-    text-decoration: none;
-    display: block;
-}
-
 .img1{
     width: 240px;
     height: 240px;
@@ -108,6 +179,7 @@ h2{
     border-left: 25px solid transparent;
     border-top: 26px solid #ED6C4D;
     border-right: 25px solid transparent;
+    z-index: 1;
 }
 
 .our_partners h2{
@@ -115,12 +187,23 @@ h2{
     margin: 0 auto;
 }
 
-.circle{
-    display: inline-block;
-    width: 86px;
+.partners{
+    width: 140px;
     height: 70px;
+}
+
+.partnercontainer{
+    vertical-align: center;
+    position: relative;
+    left: 284px;
+}
+
+.circle{
+    display:inline-block;
+    width: 86px;
+    height: 86px;
     border-radius: 50%;
-    background: #747884;
+    background: #3D4652;
     text-align: center;
     font-size: 44px;
     color: #ED6C4D;
