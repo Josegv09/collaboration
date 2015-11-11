@@ -16,7 +16,7 @@ body{
 }
 
 .solution_2 img{
-
+	float: left;
 	margin-right: 15px;
 }
 
@@ -52,12 +52,6 @@ nav:before {
     border-right: 25px solid transparent;
 }
 
-/*.principal{
-	display: block;
-	padding-top: 110px;
-	height: 700px;
-}*/
-
 .principal{
 	margin-top: 95px;
 }
@@ -65,8 +59,8 @@ nav:before {
 .principal:before{
 	content: "";
     position: absolute;
-    top: 122%;
-    left: 790px;
+    top: 140%;
+    left: 730px;
     width: 0;
     height: 0;
 
@@ -76,8 +70,9 @@ nav:before {
 }
 
 .footer{
-	height: 670px;
+	height: 1100px;
 	background:#313A45 ;
+	margin-top: 40px;
 }
 
 .main_services{
@@ -111,7 +106,8 @@ h3{
 	margin:0px 0 24px 15px;
 }
 
-.features_services p{
+/*.features_services*/ 
+p{
 	color: white;
 	font-family: avenir Next;
 	font-weight: lighter;
@@ -124,6 +120,10 @@ h3{
 }
 
 .first{
+	padding-top: 70px;
+
+}
+.second{
 	padding-top: 70px;
 
 }
@@ -141,9 +141,9 @@ h3{
 	margin-left: 27px;
 }
 
-/*.features_services p{
-margin-left: 161px;
-}*/
+.features_services p{
+	margin-left: 161px;
+}
 
 .main_services h2{
 	margin-right: 20px;
@@ -155,11 +155,11 @@ margin-left: 161px;
 	height: 105px;
 }
 
-.solution{
-	float: left;
+.solution_2{
+	margin-bottom: 120px;
+	height: 105px;
 }
-
-.info{
+.solution{
 	float: left;
 }
 
@@ -179,14 +179,13 @@ li{
 }
 
 .title{
-	margin-top: 127px;
-	width: 1443px;
 	text-align: center;
 	line-height: 1px;
+	margin-bottom: 90px;
 }
 
 .title h2{
-	padding-top: 105px;
+	padding-top: 110px;
 	letter-spacing: -1px;
 	font-size: 46px
 }
@@ -195,6 +194,7 @@ li{
 	color: gray;
 	font:normal 11px avenir Next;
 	font-weight: lighter;
+
 }
 
 .firstImg{
@@ -214,36 +214,27 @@ li{
 }
 
 .part_1{
-	margin-left: 150px;
-	width: 450px;
 	height: 210px;
 	float: left;
+	margin-bottom: 18px;
 }
 .part_2{
 	float: left;
-	width: 450px;
 	height: 210px;
 	
 }
 .part_3{
-	margin-left: 150px;
 	float: left;
-	width: 450px;
 	height: 180px;
 	
 }
 .part_4{
 	float: left;
-	width: 450px;
 	height: 180px;
 }
 
-.container{
-	margin-top: 65px;
-}
-
-.contain p{
-	margin: 15px 0 30px 165px;
+.footer p{
+	margin: 10px 0 35px 160px;
 } 
 
 a{
