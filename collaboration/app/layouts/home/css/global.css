@@ -55,14 +55,19 @@ a{
 .analysis{
 	width: 260px;
 	height: 260px;
-	background: #ED6C4D;
+	background: transparent;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 130px;
 	z-index: 1;
+	border:1px solid white;
 }
 .circles{
 	padding: 50px 0 0 0;
+}
+.circles section:hover	{
+	background: #ED6C4D;
+	border:none;
 }
 
 .solutions{
@@ -99,6 +104,12 @@ a{
 	min-height: 777px;
 	margin: 0;
 	position: relative;
+}
+.title2{
+	font: lighter 49px "Avenir Next";
+	color: #FFF;
+	text-align: center;
+	padding: 93px 3% 0 0;
 }
 .tap3{
 	background: #323A45;
