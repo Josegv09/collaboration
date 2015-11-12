@@ -1,70 +1,65 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Home</title>
-		 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="css/reset.css">
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="css/global.css">
-		
-		
-
-	</head>
-	<body>
-		<div class="wrapper" >
-		<nav class="navbar navbar-default ">
-  			<div class="container">
-
-  				<div class="collapse navbar-collapse">
-  					<ul class="nav navbar-nav">
-   						<li><a href="" >HOME</a></li>
-   						<li>
-   							<a href="" >
-   								ABOUT <span class="caret"></span>
-   							</a>
-   							<ul class="dropdown-menu">
-   								<li><a href="#"></a>ABOUT</li>
-   								<li><a href="#"></a>TEAM</li>
-   								<li><a href="#"></a>NEWS</li>
-   								<li><a href="#"></a>AWARDS</li>
-   								<li><a href="#"></a>SOLUTIONS</li>
-   								<li><a href="#"></a></li>
-   							</ul>
-   						</li>
-   						<li><a href="" >SERVICES</a></li>
-   						<li><a href="" >BLOG</a></li>
-   						<li><a href="" >CONTACTS</a></li>
-   					</ul>
-  				</div>
-  			</div>
-		</nav>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12   tap1" >
-          
-        </div>
+  <head>
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+  </head>
+  <body>
+    <div class="container-fluid wrapper">
+    <!--begin nav --> 
+      <header>
+        <nav class="navbar navbar-default ">
+          <div class="container-fluid">
+            <div class="navbar-header">
+            <!--creates a button for small screen-->
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-1">
+                <span class="sr-only">menu</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <!--creates a button for small screen  end-->
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-1">
+              <ul class="nav navbar-nav">
+                <li><a href="#">HOME</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                    ABOUT <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#"></a>ABOUT</li>
+                      <li><a href="#"></a>TEAM</li>
+                      <li><a href="#"></a>NEWS</li>
+                      <li><a href="#"></a>AWARDS</li>
+                      <li><a href="#"></a>SOLUTIONS</li>
+                      <li><a href="#"></a></li>
+                  </ul>
+                </li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTACTS</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!--end nav --> 
+      <!--begin tap-1 --> 
+      <div class="container-fluid tap1">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 logo" >
+            <img src="../../images/logo/logo.bmp">
+          </div>
       </div>
-    </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 talkbubble tap2">
-          
-        </div>
-      </div>
-    </div>
-		<div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 talkbubble tap3">
-          
-        </div>
-      </div>
-    </div>
-    
+      <!--end tap-1 --> 
 
-
-
-		</div>
-		<script src="scripts/jquery.min.js"></script>
-		<script src="scripts/bootstrap.js"></script>
-	</body>
+      
+    </div>
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+  </body>
 </html>

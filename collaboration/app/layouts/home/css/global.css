@@ -1,70 +1,105 @@
 .wrapper{
 	background: #ED6C4D;
-	width: 1300px;
-	height: 2897px;
 	margin: 0 auto;
-	padding: 16px 0 0 0;
+	padding: 16px 0 23px 0;
+	max-width: 1300px;
+
 }
 .navbar{
 	background: #323A45;
-	width: 1300px;
 	height: 77px;
 	border: none;
 	border-radius: 0;
 	border-bottom: 1px solid white;
-	margin: 0 auto;
-	padding: 0 0 0 299px;
-
+	margin: 0;
 }
 .navbar li{	
 	font:  19px "Avenir Next";
-	text-align: center;
-	height: 63px;
-	position: relative;
-	top: 15px;
 
 }
 .navbar-default .navbar-nav > li > a,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:active{
 color: #FFF;
-text-decoration: none;
+z-index: 1;
 }
 
 a{
 	color: white;
-	
-
 }
-
  li:active{
 	background: #282F39;
-	border-bottom: 3px solid red;
+	border-bottom: 3px solid #ED6C4D;
 
 }
 .tap1{
 	background: #323A45;
-	height: 728px;	
+	max-width: 1300px;
 	margin: 0;
 	position: relative;
 }
-.tap2{
+.analysis{
+	width: 260px;
+	height: 260px;
 	background: #ED6C4D;
-	height: 777px;	
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 130px;
+	z-index: 1;
+}
+.logo {
+ padding:45px 0 50px 40.9%; 
+}
+.solutions{
+	
+	width: 260px;
+	height: 260px;
+	background: transparent;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 130px;
+	border:1px solid white;
+}
+.strategies{
+	width: 260px;
+	height: 260px;
+	background: transparent;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 130px;
+	border:1px solid white;
+}
+.experience{
+	width: 260px;
+	height: 260px;
+	background: transparent;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 130px;
+	border:1px solid white;;
+}
+.tap2{
+	background: #ED6C4D;	
+	max-width: 1300px;
 	margin: 0;
 	position: relative;
 }
 .tap3{
 	background: #323A45;
-	height: 646px;
+	max-width: 1300px;
 	margin: 0;
 	position: relative;
+}
+.tap4{
+	background: #292F39;
+	max-width: 1300px;
+	margin: 0;
 }
 .tap1:before {
    	content:"";
    	position: absolute;
    	top: 100%;
-   	left: 616px;
+   	left: 47.5%;
    	width: 0;
    	height: 0;
    	border-left: 25px solid transparent;
@@ -76,7 +111,7 @@ a{
    	content:"";
    	position: absolute;
    	top: 100%;
-   	left: 616px;
+   	left: 47.5%;
    	width: 0;
    	height: 0;
    	border-left: 25px solid transparent;
@@ -88,7 +123,7 @@ a{
    	content:"";
    	position: absolute;
    	top: 100%;
-   	left: 616px;
+   	left: 47.5%;
    	width: 0;
    	height: 0;
    	border-left: 25px solid transparent;
