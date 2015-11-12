@@ -3,6 +3,7 @@
 	margin: 0 auto;
 	padding: 16px 0 23px 0;
 	max-width: 1300px;
+	min-width: 361px;
 
 }
 .navbar{
@@ -32,9 +33,22 @@ a{
 	border-bottom: 3px solid #ED6C4D;
 
 }
+.logo {
+ padding:45px 0 50px 40.9%; 
+}
+
+.title1 {
+	font: lighter 52px "Avenir Next";
+	color: #FFF;
+	text-align: center;
+}
+.title1 span{
+	color: #ED6C4D;
+}
 .tap1{
 	background: #323A45;
 	max-width: 1300px;
+	min-height: 726px;
 	margin: 0;
 	position: relative;
 }
@@ -47,9 +61,10 @@ a{
 	border-radius: 130px;
 	z-index: 1;
 }
-.logo {
- padding:45px 0 50px 40.9%; 
+.circles{
+	padding: 50px 0 0 0;
 }
+
 .solutions{
 	
 	width: 260px;
@@ -76,23 +91,26 @@ a{
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 130px;
-	border:1px solid white;;
+	border:1px solid white;
 }
 .tap2{
-	background: #ED6C4D;	
+	background: #ED6C4D;
 	max-width: 1300px;
+	min-height: 777px;
 	margin: 0;
 	position: relative;
 }
 .tap3{
 	background: #323A45;
 	max-width: 1300px;
+	min-height: 646px;
 	margin: 0;
 	position: relative;
 }
 .tap4{
 	background: #292F39;
 	max-width: 1300px;
+	min-height: 637px;
 	margin: 0;
 }
 .tap1:before {
