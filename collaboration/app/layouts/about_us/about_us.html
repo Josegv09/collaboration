@@ -7,46 +7,61 @@
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"><link rel="stylesheet" type="text/css" href="css/global.css">
 	</head>
 	<body>
-		<div class="wrapper container">
+		<div class="wrapper container-fluid">
 			<div class="row row1">
-				<nav class="navbar navbar-default col-lg-12">
-		  			<div class="container">
-		  				<div class="collapse navbar-collapse">
-		  					<ul class="nav navbar-nav">
-		   						<li><a href="#" >HOME</a></li>
-		   						<li>
-		   							<a href="#" >
-		   								ABOUT <span class="caret"></span>
-		   							</a>
-		   							<ul class="dropdown-menu">
-		   								<li><a href="#"></a>ABOUT</li>
-		   								<li><a href="#"></a>TEAM</li>
-		   								<li><a href="#"></a>NEWS</li>
-		   								<li><a href="#"></a>AWARDS</li>
-		   								<li><a href="#"></a>SOLUTIONS</li>
-		   							</ul> <!-- end dropdown-menu -->
-		   						</li>
-		   						<li><a href="#" >SERVICES</a></li>
-		   						<li><a href="#" >BLOG</a></li>
-		   						<li><a href="#" >CONTACTS</a></li>
-		   					</ul> <!-- end nav -->
-		  				</div> <!-- end collapse -->
-		  			</div> <!--end container -->
-				</nav> <!-- end navbar-->
+				<header>
+			        <nav class="navbar navbar-default ">
+			          <div class="container-fluid">
+			            <div class="navbar-header">
+			            <!--creates a button for small screen-->
+			              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-1">
+			                <span class="sr-only">menu</span>
+			                <span class="icon-bar"></span>
+			                <span class="icon-bar"></span>
+			                <span class="icon-bar"></span>
+			              </button>
+			              <!--creates a button for small screen  end-->
+			            </div>
+			            <div class="collapse navbar-collapse" id="navbar-1">
+			              <ul class="nav navbar-nav">
+			                <li><a href="#">HOME</a></li>
+			                <li class="dropdown">
+			                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+			                    ABOUT <span class="caret"></span>
+			                  </a>
+			                  <ul class="dropdown-menu">
+			                    <li><a href="#"></a>ABOUT</li>
+			                      <li><a href="#"></a>TEAM</li>
+			                      <li><a href="#"></a>NEWS</li>
+			                      <li><a href="#"></a>AWARDS</li>
+			                      <li><a href="#"></a>SOLUTIONS</li>
+			                      <li><a href="#"></a></li>
+			                  </ul>
+			                </li>
+			                <li><a href="#">SERVICES</a></li>
+			                <li><a href="#">BLOG</a></li>
+			                <li><a href="#">CONTACTS</a></li>
+			              </ul>
+			            </div> <!-- end navbar header -->
+			          </div> <!-- end container -->
+			        </nav> <!-- end navbar -->
+				</header>
 			</div> <!-- end row -->
 			<div class="row row2">
-				<div class="col-lg-12 banner">
-					
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 banner">
+					<img src="../../images/logo/logo.bmp" alt='image not founded'>
 				</div> <!-- end banner -->
 			</div> <!-- end row -->
 			<div class="row row3">
-				<div class="col-lg-12">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<h2>ABOUT US</h2>
 				</div> <!-- end -->
 			</div> <!-- end row3 -->
 			<div class="row row4">
-				<div class="col-lg-12 about_us">
+				<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 about_us pull-left">
 					<img src="../../images/about_us/img1.bmp" alt='image not founded'class='img1'>
+				</div> <!-- end col -->
+				<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 about_us">	
 					<p>Harea aumennec in velit veaugun erase diam lor innia est. Proin dium elemum velit. terdpibus sceleue vitaepeecon eracinia ferment.
 					Donec in vel ipsum auctorulvinaroin ullamcorper u et feum iaculis lacinia est. Proin dictum elemenelit. Fusce euismod consequat antrem ipsm dolor sitmet consectetuer adipiscing elit. Pellesque sed dolor. Aliquam congue fermentum nisl. Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi aliquet sit amet euismod in auctor ut ligula. Aliquam dapibus tincidunt metus. Praesent justo dolor lobortis quis lobortis dignissim pulvinar ac lorem. Vestibulum sed ante. Donec sagittis euismod purus.Vestibulum sed ante. Donec sagittis euismod purus.
 					</p>
@@ -55,15 +70,18 @@
 						MORE
 					</span> <!-- end more -->
 					</a>
-				</div> <!-- end title-->
+				</div> <!-- end col -->
+				<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 offset">
+					
+				</div> <!-- end col -->
 			</div> <!-- end row4 -->
 			<div class="row row5">
-				<div class="col-lg-12">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<h2>OUR PRINCIPLES</h2>
-				</div> <!-- end  -->
+				</div> <!-- end col -->
 			</div> <!-- end row5 -->
 			<div class="row row6 our_principles">
-				<div class="col-lg-6">
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
 					<div class='circle'>1</div><p>Varius mi um sociis natoque penati bus et magnisis parrient montes nascetur ridicumus.</p>
 						<a id='more' href="#">
 							<span class='more'>
@@ -71,7 +89,7 @@
 							</span> <!-- end more -->
 						</a>
 				</div> <!-- end item1-->
-				<div class="col-lg-6">
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
 					<div class='circle'>2</div><p>Varius mi um sociis natoque penati bus et magnisis parrient montes nascetur ridicumus.</p>
 						<a id='more' href="#">
 							<span class='more'>
@@ -79,9 +97,9 @@
 							</span> <!-- end more -->
 						</a>
 				</div> <!-- end li2 -->
-			</div>
+			</div><!-- end row6 -->
 				<div class="row row7 our_principles">
-					<div class="col-lg-6">
+					<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
 						<div class='circle'>3</div><p>Varius mi um sociis natoque penati bus et magnisis parrient montes nascetur ridicumus.</p>
 						<a id='more' href="#">
 							<span class='more'>
@@ -89,7 +107,7 @@
 							</span> <!-- end more -->
 						</a>
 					</div> <!-- end li3 -->
-					<div class="col-lg-6">
+					<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
 						<div class='circle'>4</div><p>Varius mi um sociis natoque penati bus et magnisis parrient montes nascetur ridicumus.</p>
 						<a id='more' href="#">
 							<span class='more'>
@@ -99,22 +117,21 @@
 					</div> <!-- end li4 -->
 				</div> <!-- end row7 -->
 				<div class="row row8">
-					<div class="col-lg-12">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 						<h2>OUR PARTNERS</h2>
 					</div>
 				</div> <!-- end row8 -->
 				<div class="row row9">
-					<div class="col-lg-12 partnercontainer">
-						<a href="#"><img class='partners' src="../../images/about_us/partner1.bmp"></a>
-						<a href="#"><img class='partners' src="../../images/about_us/partner2.bmp"></a>
-						<a href="#"><img class='partners' src="../../images/about_us/partner3.bmp"></a>
-						<a href="#"><img class='partners' src="../../images/about_us/partner4.bmp"></a>
-						<a href="#"><img class='partners' src="../../images/about_us/partner5.bmp">
-					</a></div> <!-- end partners -->
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 partnercontainer">
+						<ul class="partnersList">
+							<li><a href="#"><img class='partners' src="../../images/about_us/partner1.bmp" alt='image not found'></a></li>
+							<li><a href="#"><img class='partners' src="../../images/about_us/partner2.bmp" alt='image not found'></a></li>
+							<li><a href="#"><img class='partners' src="../../images/about_us/partner3.bmp" alt='image not found'></a></li>
+							<li><a href="#"><img class='partners' src="../../images/about_us/partner4.bmp" alt='image not found'></a></li>
+							<li><a href="#"><img class='partners' src="../../images/about_us/partner5.bmp" alt='image not found'><a/></li>
+						</ul> <!-- end partnersList -->
+					</div> <!-- end partners -->
 				</div> <!-- end row9-->
-				<div class="row row10">
-					
-				</div> <!-- end row10 -->
 		</div> <!-- end wrapper -->
 		<script type="text/javascript" src='../../scripts/jquery.min.js'></script>
 		<script type="text/javascript" src='../../scripts/bootstrap.js'></script>
