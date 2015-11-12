@@ -6,18 +6,62 @@
 		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
 		<link rel="stylesheet" type="text/css" href="css/global.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/style.css"/>
 	</head>	
 	<body>
 
-		<div class="wrapper">
-			<div class= "nav_bar">
+	<div class="container-fluid wrapper">
+			<!--begin nav --> 
+      <header>
+        <nav class="navbar navbar-default ">
+          <div class="container-fluid">
+            <div class="navbar-header">
+            <!--creates a button for small screen-->
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-1">
+                <span class="sr-only">menu</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <!--creates a button for small screen  end-->
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-1">
+              <ul class="nav navbar-nav">
+                <li><a href="#">HOME</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                    ABOUT <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#"></a>ABOUT</li>
+                      <li><a href="#"></a>TEAM</li>
+                      <li><a href="#"></a>NEWS</li>
+                      <li><a href="#"></a>AWARDS</li>
+                      <li><a href="#"></a>SOLUTIONS</li>
+                      <li><a href="#"></a></li>
+                  </ul>
+                </li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTACTS</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!--end nav --> 
 
-			</div>
+    <div class="container-fluid tap1">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 logo" >
+            <img src="images/logo.bmp">
+          </div>
+        </div>
+    </div>      
 
 			<div class="info container-fluid"> 
-
 				<section class="main row">
-					<div class="box col-xs-12 col-md-5 col-lg-5 col-xs-offset-0 col-sm-offset-0 col-md-offset-1 col-lg-offset-1">
+					<div class="box col-xs-12 col-md-6 col-lg-6 col-xs-offset-0 col-sm-offset-0 col-md-offset-1 col-lg-offset-1">
 					
 					</div>	
 						<!--<div class="title">
@@ -25,7 +69,7 @@
 						</div> end title --> 
 
 						
-					<div class="text col-xs-12 col-md-5 col-lg-5">
+					<div class="text col-xs-12 col-md-6 col-lg-6">
 							<p class="info_text">
 								Varius mi.um sociis natoque penati bus et magnisis parrient montes<br> nascetur ridicumus. Nulla duisce feut malesuada odio. Morbi nunc<br> odio gravidatcursec luctus a lorem. Maecenas tristique orci aem.<br> Duis ultricies pharetra magnanec accumsan malesuada orci. Donec<br> sit amet eros. Lorem ipsum dolor sit amet consectetuer adipiscing<br> elit. Mauris fermentum dictum magna. Lorem ipsum dolor. Mauris<br> fermentum dictum magna.
 							</p>
@@ -39,7 +83,7 @@
 								Freephone:+1 800 559 6580<br>
 								Telephone:+1 800 603 6035<br>
 								FAX:+1 800 889 9898<br>
-								E-mail: mail@demolink.org<br>
+								E-mail: <span class="mail">mail@demolink.org</span><br>
 							</p>
 					</div> 
 				</section>
@@ -50,7 +94,7 @@
 					<h2> GET IN TOUCH </h2>
 				</div> <!-- end title --> 
 
-				<div class="form_sing container">
+				<form class="form_sing container">
 						<div class="form-inline">
 							<div class="form-group">
 								<input class="nameForm form-control" class="Name" type="text" placeholder="Name:">
@@ -61,7 +105,10 @@
 						<div class="form-group">
 								<textarea class="form-control" class="menssage" placeholder="Message:"></textarea>
 						</div>
-				</div>	
+				</form>
+
+				<a href="#" class="send">SUBMIT</a>	 
+				<a href="#">CLEAR</a>
 
 
 			</div> <!-- end footer -->	
