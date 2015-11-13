@@ -1,3 +1,4 @@
+/*
 .wrapper{
 	background: #ED6C4D;
     max-width: 1300px;
@@ -5,7 +6,7 @@
 	margin: 0 auto;
     position: relative;
 }
-
+*/
 @media(min-width: 1200px){
     .about_us p{
         color: #FFF;
@@ -100,49 +101,13 @@ a{
     text-decoration: none;
 }
 
-.navbar{
-    background: #323A45;
-    height: 77px;
-    border: none;
-    border-radius: 0;
-    border-bottom: 1px solid white;
-    margin: 0;
-}
-
-.navbar li{ 
-    font:  19px "Avenir Next";
-    text-align: center;
-    height: 63px;
-    position: relative;
-    top: 15px;
-}
-
-li:active{
-    background: #282F39;
-    border-bottom: 3px solid #ED6C4D;
-
-}
-
 .navbar-nav a{
     color:#FFF;   
-}
-
-.navbar-default .navbar-nav > li > a,
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:active{
-    color: #FFF;
-    z-index: 1;
 }
 
 .navbar a:hover,
 .navbar a:focus {
   color: #FFF;
-}
-
-.navbar li:active{
-    background: #282F39;
-    border-bottom: 3px solid #;
-    color: #FFF;
 }
 
 .navbar a:hover{
