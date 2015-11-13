@@ -3,45 +3,10 @@ body{
 	margin-top: 0;
 }
 
-.wrapper{
-	max-width: 1300px;
-	min-width: 361px;
-	background: #ED6C4D;
-	margin: 0 auto;
-	padding: 16px 0 23px 0; 
-}
-
-.navbar{
-	background: #323A45;
-	height: 77px;
-	border: none;
-	border-radius: 0;
-	border-bottom: 1px solid white;
-	margin: 0;
-}
-.navbar li{	
-	font:  19px "Avenir Next";
-
-}
-.navbar-default .navbar-nav > li > a,
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:active{
-color: #FFF;
-z-index: 1;
-}
-
-a{
-	color: white;
-}
- li:active{
-	background: #282F39;
-	border-bottom: 3px solid #ED6C4D;
-
-}
-
 .logo {
  padding:45px 0 50px 40.9%; 
 }
+
 .tap1{
 	background: #323A45;
 	max-width: 1300px;
