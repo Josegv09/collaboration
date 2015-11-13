@@ -1,0 +1,170 @@
+body{
+	background: white;
+	margin-top: 0;
+}
+
+.wrapper{
+	max-width: 1300px;
+	min-width: 361px;
+	background: #ED6C4D;
+	margin: 0 auto;
+	padding: 16px 0 23px 0; 
+}
+
+.navbar{
+	background: #323A45;
+	height: 77px;
+	border: none;
+	border-radius: 0;
+	border-bottom: 1px solid white;
+	margin: 0;
+}
+.navbar li{	
+	font:  19px "Avenir Next";
+
+}
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:active{
+color: #FFF;
+z-index: 1;
+}
+
+a{
+	color: white;
+}
+ li:active{
+	background: #282F39;
+	border-bottom: 3px solid #ED6C4D;
+
+}
+
+.logo {
+ padding:45px 0 50px 40.9%; 
+}
+.tap1{
+	background: #323A45;
+	max-width: 1300px;
+	min-height: 170px;
+	margin: 0;
+	position: relative;
+}
+
+.tap1:before{
+	content: "";
+    position: absolute;
+    top: 100%;
+    left: 47.5%;
+    width: 0;
+    height: 0;
+
+    border-left: 29px solid transparent;
+    border-top: 28px solid #323A45;
+    border-right: 29px solid transparent;
+}
+
+.principal{
+	margin: 7.4% 0 0 4%;
+}
+
+.secondary{
+	margin: 3% 0 0 4%;
+}
+
+.info{
+	margin: 0 0 0 5.3%
+}
+
+.archive{
+	margin: 0 0 0 5.3%
+}
+
+li{
+	list-style-image: url(../images/blog.png);
+	font-size: 15px;
+	font-family: Avenir Next;
+	color: white;
+	font-weight: lighter;
+	line-height:30px;
+}
+
+
+.info h2{
+	color: white;
+	font-size: 47px;
+	font-family: Avenir Next;
+	font-weight: lighter;
+	margin-bottom: 60px;
+	height: 73px;
+}
+
+.search h2{
+	color: white;
+	font-size: 47px;
+	font-family: Avenir Next;
+	font-weight: lighter;
+	margin-bottom: 60px;
+	height: 80px;
+}
+
+.archive h2{
+	color: white;
+	font-size: 47px;
+	font-family: Avenir Next;
+	font-weight: lighter;
+	margin: 30px 0 60px 0;
+	height: 80px;
+}
+
+.principal img{
+	float: right;
+	margin: 0 22% 0 0;
+}
+
+.secondary img{
+	float: right;
+	margin: 0 18% 0 0;
+}
+
+.date{
+	float: left;
+	color: white;
+	font-size: 80px;
+	font-weight: bold;
+}
+
+.month{
+	float: left;
+	color: white;
+	font-size: 20px;
+	font-family: Avenir Next;
+	position: absolute;
+	margin: 100px 0 0 0;
+}
+
+.search p{
+	margin: 67% 0 7% 0;
+	color: white;
+	font-family: avenir Next;
+	font-weight: lighter;
+	font-size: 17px;
+	line-height:26px;
+}
+
+.search_2 p{
+	margin: 52.5% 0 2% 0;
+	color: white;
+	font-family: avenir Next;
+	font-weight: lighter;
+	font-size: 17px;
+	line-height:26px;
+}
+
+.search, .search_2 a{
+	color: white;
+	font-family: avenir Next;
+	font-style: italic;
+	font-weight: lighter;
+	font-size: 23px;
+}
+
