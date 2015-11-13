@@ -42,6 +42,7 @@ a{
 .logo {
  padding:45px 0 50px 40.9%; 
 }
+
 .tap1{
 	background: #323A45;
 	max-width: 1300px;
@@ -76,7 +77,11 @@ a{
 }
 
 .archive{
-	margin: 0 0 0 5.3%
+	margin: 0 0 0 4%
+}
+
+.archive ul{
+	margin: 0 0 0 3.1%;
 }
 
 li{
@@ -127,23 +132,21 @@ li{
 }
 
 .date{
-	float: left;
 	color: white;
 	font-size: 80px;
 	font-weight: bold;
 }
 
 .month{
-	float: left;
 	color: white;
 	font-size: 20px;
 	font-family: Avenir Next;
-	position: absolute;
-	margin: 100px 0 0 0;
+	display: block;
+	margin: 0 0 0 0;
 }
 
 .search p{
-	margin: 67% 0 7% 0;
+	margin: 30% 0 7% 0;
 	color: white;
 	font-family: avenir Next;
 	font-weight: lighter;
@@ -152,7 +155,7 @@ li{
 }
 
 .search_2 p{
-	margin: 52.5% 0 2% 0;
+	margin: 30% 0 2% 0;
 	color: white;
 	font-family: avenir Next;
 	font-weight: lighter;
