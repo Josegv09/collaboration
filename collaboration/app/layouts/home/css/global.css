@@ -27,12 +27,14 @@ z-index: 1;
 
 a{
 	color: white;
+	text-decoration: none;
 }
  li:active{
 	background: #282F39;
 	border-bottom: 3px solid #ED6C4D;
 
 }
+/*end Nav*/
 .logo {
  padding:45px 0 50px 40.9%; 
 }
@@ -62,12 +64,21 @@ a{
 	z-index: 1;
 	border:1px solid white;
 }
+/*circles*/
 .circles{
 	padding: 50px 0 0 0;
 }
 .circles section:hover	{
 	background: #ED6C4D;
 	border:none;
+}
+.circles img{
+	padding: 32% 0 0 36%;
+}
+.circles a{
+	padding: 40% 0 0 29%;
+	font:  19px "Avenir Next";
+
 }
 
 .solutions{
@@ -98,6 +109,7 @@ a{
 	border-radius: 130px;
 	border:1px solid white;
 }
+/*end circles*/
 .tap2{
 	background: #ED6C4D;
 	max-width: 1300px;
@@ -105,18 +117,76 @@ a{
 	margin: 0;
 	position: relative;
 }
+.date{
+	font:italic lighter 88px impact;
+    color:#FFF;
+    padding: 0 0 43px 0;
+}
+.date small{
+	font:italic lighter 15px impact;
+    color:#FFF;
+}
 .title2{
 	font: lighter 49px "Avenir Next";
 	color: #FFF;
 	text-align: center;
-	padding: 93px 3% 0 0;
+	padding: 95px 3% 71px 15px;
 }
+.event-1{
+	min-height: 418px;
+}
+.event-2{
+	border-right: 1px solid white;
+	border-left:1px solid white;
+	min-height: 418px;
+}
+.event-3{
+	border-right: 1px solid white;
+	min-height: 418px;
+}
+.event-4{
+	min-height: 418px;
+}
+
 .tap3{
 	background: #323A45;
 	max-width: 1300px;
 	min-height: 646px;
 	margin: 0;
 	position: relative;
+}
+.title3{
+	font: lighter 49px "Avenir Next";
+	color: #FFF;
+	text-align: center;
+	padding: 16% 3% 64px 17%
+}
+.title4{
+	font: lighter 49px "Avenir Next";
+	color: #FFF;
+	text-align: center;
+}
+.title4 small{
+	font: lighter 15px "Avenir Next";
+    color:#FFF;
+    padding: 0;
+}
+.title3 small{
+	font: lighter 15px "Avenir Next";
+    color:#FFF;
+    padding: 0;
+}
+.bag{
+	position: relative;
+	left: 27%;
+}
+
+.paragraf-1{
+	width: 236px;
+	height: 137px;
+	position: relative;
+	left: 50%;
+
 }
 .tap4{
 	background: #292F39;
@@ -159,4 +229,11 @@ a{
    	border-top: 26px solid #323A45;
    	border-right: 25px solid transparent;
    	z-index: 1;
+}
+.more{
+    font:italic lighter 20px impact;
+    color:#FFF;
+}
+p{
+	color: #FFF;
 }
